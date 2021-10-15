@@ -6,7 +6,7 @@ uses
   Vcl.Themes,
   Vcl.Styles,
   untFormulario in 'untFormulario.pas' {frmFormulario},
-  untFormulario2 in 'untFormulario2.pas' {Form1};
+  untFormulario2 in 'untFormulario2.pas' {frmFormulario2};
 
 {$R *.res}
 
@@ -16,6 +16,6 @@ begin
   TStyleManager.TrySetStyle('Windows10');
   Application.CreateForm(TfrmMenuPrincipal, frmMenuPrincipal);
   Application.CreateForm(TfrmFormulario, frmFormulario);
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmFormulario2, frmFormulario2);
   Application.Run;
 end.

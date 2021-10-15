@@ -23,7 +23,7 @@ object frmMenuPrincipal: TfrmMenuPrincipal
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 596
+    Left = 8
     Top = 13
     Width = 32
     Height = 13
@@ -31,7 +31,7 @@ object frmMenuPrincipal: TfrmMenuPrincipal
     Caption = 'Thema'
   end
   object cbbStylesThemes: TComboBox
-    Left = 596
+    Left = 8
     Top = 32
     Width = 129
     Height = 21
@@ -41,22 +41,22 @@ object frmMenuPrincipal: TfrmMenuPrincipal
     OnChange = cbbStylesThemesChange
   end
   object Button1: TButton
-    Left = 8
-    Top = 356
+    Left = 143
+    Top = 30
     Width = 75
     Height = 25
     Anchors = [akLeft, akBottom]
-    Caption = 'Button1'
+    Caption = 'Formulario'
     TabOrder = 1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 89
-    Top = 356
+    Left = 224
+    Top = 30
     Width = 75
     Height = 25
     Anchors = [akLeft, akBottom]
-    Caption = 'Button1'
+    Caption = 'Formulario 2'
     TabOrder = 2
     OnClick = Button2Click
   end
